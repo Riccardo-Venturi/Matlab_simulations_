@@ -4,6 +4,46 @@ This is a repo of old matlab simulations and new ones i used to gain experience 
 ![MATLAB](https://img.shields.io/badge/MATLAB-Simulation-blue)
 ![Python](https://img.shields.io/badge/Python-Coming_Soon-yellow)
 ![Status](https://img.shields.io/badge/Status-Active_Development-success)
+# ⚙️ Mechanical & Economic System Dynamics
+
+[![MATLAB](https://img.shields.io/badge/MATLAB-Simulation-blue.svg)]()
+[![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen.svg)]()
+
+## 📌 Project Overview
+This repository is an ongoing engineering workspace dedicated to the numerical simulation of physical and financial systems. It bridges the gap between **Mechanical Vibrations (Dynamic Systems)** and **Engineering Economics (Plant Management)**.
+
+The project is built on the philosophy of Open Science and Data-Driven Engineering. As the repository grows, it aims to evolve from pure MATLAB-based prototyping toward robust **Python-based implementations** and **statistical data analysis pipelines**.
+
+---
+
+## 📂 Repository Structure
+
+### 1. `/Mechanical_Systems_Vibrations` (ME 564 - Driven)
+This directory contains simulations of mechanical oscillators and multi-degree-of-freedom (MDOF) systems. 
+* **Focus:** State-Space modeling, solving ODEs (`ode45`), natural frequencies analysis, and nonlinear kinematics.
+* **Goal:** Moving towards Python (`scipy`, `numpy`) for real-time data analysis and system identification.
+
+### 2. `/Engineering_Economics`
+A collection of tools for industrial plant assessment and financial mathematics.
+* **Focus:** Investment evaluation (VAN/NPV, NFV), Cash Flow Diagram generation, and IRR (TIR) numerical solvers.
+* **Goal:** Streamlining plant management workflows and financial decision-making metrics.
+
+---
+
+## 🚀 Roadmap & Future Expansion
+- [ ] **Python Porting:** Migrating the core dynamics solvers (ODE integrators) from MATLAB to Python/SciPy.
+- [ ] **Statistical Layer:** Integrating statistical modules to perform sensitivity analysis on simulated dynamics.
+- [ ] **Data Visualization:** Moving beyond static plots into interactive visualization tools.
+- [ ] **Documentation:** Adding Jupyter Notebooks for more interactive explainability of the mathematical models.
+
+---
+
+## 🛠 Prerequisites
+These tools are currently developed in **MATLAB (R2019a+)**. 
+For any issue or contribution, feel free to open an issue or pull request.
+
+---
+*Created by [Riccardo Venturi](https://github.com/Riccardo-Venturi)*
 
 ## 📌 Overview
 This repository serves as a unified workspace for numerical simulations applied to **Mechanical Engineering** and **Industrial Economics**. 
